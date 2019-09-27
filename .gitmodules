@@ -1,0 +1,36 @@
+[submodule "bundle/elm.vim"]
+    path = bundle/elm.vim
+    url = https://github.com/lambdatoast/elm.vim
+
+[submodule "bundle/rust.vim"]
+    path = bundle/rust.vim
+    url = https://github.com/rust-lang/rust.vim.git
+
+[submodule "bundle/vim-coffee-script"]
+    path = bundle/vim-coffee-script
+    url = https://github.com/kchmck/vim-coffee-script
+
+[submodule "bundle/vim-easy-align"]
+    path = bundle/vim-easy-align
+    url = https://github.com/junegunn/vim-easy-align
+
+[submodule "bundle/vim-ember-hbs"]
+    path = bundle/vim-ember-hbs
+    url = https://github.com/joukevandermaas/vim-ember-hbs.git
+
+[submodule "bundle/vim-sensible"]
+    path = bundle/vim-sensible
+    url = git://github.com/tpope/vim-sensible.git
+
+[submodule "bundle/vim-slim"]
+    path = bundle/vim-slim
+    url = git://github.com/slim-template/vim-slim.git
+
+[submodule "bundle/vim-system-copy"]
+    path = bundle/vim-system-copy
+    url = https://github.com/christoomey/vim-system-copy
+
+[submodule "bundle/vim-testkey"]
+    path = bundle/vim-testkey
+    url = git://github.com/botandrose/vim-testkey.git
+
