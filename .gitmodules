@@ -20,11 +20,11 @@
 
 [submodule "bundle/vim-sensible"]
     path = bundle/vim-sensible
-    url = git://github.com/tpope/vim-sensible.git
+    url = https://github.com/tpope/vim-sensible.git
 
 [submodule "bundle/vim-slim"]
     path = bundle/vim-slim
-    url = git://github.com/slim-template/vim-slim.git
+    url = https://github.com/slim-template/vim-slim.git
 
 [submodule "bundle/vim-system-copy"]
     path = bundle/vim-system-copy
@@ -32,5 +32,5 @@
 
 [submodule "bundle/vim-testkey"]
     path = bundle/vim-testkey
-    url = git://github.com/botandrose/vim-testkey.git
+    url = https://github.com/botandrose/vim-testkey.git
 
