@@ -34,3 +34,9 @@
     path = bundle/vim-testkey
     url = https://github.com/botandrose/vim-testkey.git
 
+[submodule "vim-abolish"]
+	path = vim-abolish
+	url = https://github.com/tpope/vim-abolish
+[submodule "bundle/vim-abolish"]
+	path = bundle/vim-abolish
+	url = https://github.com/tpope/vim-abolish
