@@ -21,3 +21,8 @@ function g:TestKey.runners.rust.run(file, line)
   return ':!clear && cargo test -j1'
 endfunction
 
+let g:TestKey.runners.minitest = { 'match': '_test\.rb$' }
+function g:TestKey.runners.minitest.run(file, line)
+  return ':!clear && rake test TEST='.a:file
+endfunction
+
