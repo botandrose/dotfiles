@@ -14,6 +14,26 @@ cnoreabbrev we We
 
 vmap \| :EasyAlign *\|<CR>
 
+function! AlignTable()
+  let start_line = line('.')
+  let end_line = line('.')
+
+  " Search upward for the start of the table
+  while start_line > 1 && getline(start_line - 1) =~ '|'
+    let start_line -= 1
+  endwhile
+
+  " Search downward for the end of the table
+  while end_line < line('$') && getline(end_line + 1) =~ '|'
+    let end_line += 1
+  endwhile
+
+  " Apply EasyAlign to the range
+  execute start_line . ',' . end_line . 'EasyAlign *|'
+endfunction
+
+nnoremap <silent> <bar><bar> :<C-u>call AlignTable()<CR>
+
 let g:TestKey = { 'runners': {} }
 
 let g:TestKey.runners.elm = { 'match': '\.elm$' }
