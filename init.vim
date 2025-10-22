@@ -51,3 +51,7 @@ function g:TestKey.runners.minitest.run(file, line)
   return ':!clear && rake test TEST='.a:file
 endfunction
 
+let g:TestKey.runners.wtr = { 'match': 'test/.\+\.js$' }
+function g:TestKey.runners.wtr.run(file, line)
+  return ':!clear && npm test '.a:file
+endfunction
