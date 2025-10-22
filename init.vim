@@ -7,6 +7,11 @@ set nowritebackup
 set noswapfile
 set nowrap
 
+command W write
+
+command -nargs=1 We :w <args> | :e <args>
+cnoreabbrev we We
+
 vmap \| :EasyAlign *\|<CR>
 
 let g:TestKey = { 'runners': {} }
